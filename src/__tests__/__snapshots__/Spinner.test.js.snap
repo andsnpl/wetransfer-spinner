@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should render in the ACTIVE state 1`] = `
+<div>
+  <div
+    class="spinner"
+  >
+    <div
+      class="gauge"
+    >
+      <div
+        aria-hidden="true"
+        class="gauge-circle"
+        style="background-color: rgb(64, 159, 255); transform: rotate(90deg);"
+      >
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(3.6deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(90deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(180deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(270deg);"
+        />
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(0deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(3.6deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+      </div>
+      <div
+        class="gauge-center"
+        style="background-color: rgb(255, 255, 255);"
+      >
+        <div
+          class="spinner-reverse"
+        >
+          <div
+            class="gauge-readout"
+          >
+            <span
+              class="gauge-value"
+            >
+              0
+            </span>
+            <span
+              class="gauge-percent-sign"
+            >
+              %
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner should render in the PAUSED state 1`] = `
+<div>
+  <div
+    class="spinner spinner-paused"
+  >
+    <div
+      class="gauge"
+    >
+      <div
+        aria-hidden="true"
+        class="gauge-circle"
+        style="background-color: rgb(64, 159, 255); transform: rotate(90deg);"
+      >
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(3.6deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(90deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(180deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(270deg);"
+        />
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(0deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(3.6deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+      </div>
+      <div
+        class="gauge-center"
+        style="background-color: rgb(255, 255, 255);"
+      >
+        <div
+          class="spinner-reverse spinner-paused"
+        >
+          <div
+            class="gauge-readout"
+          >
+            <span
+              class="gauge-value"
+            >
+              0
+            </span>
+            <span
+              class="gauge-percent-sign"
+            >
+              %
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner should render in the READY state 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="gauge"
+    >
+      <div
+        aria-hidden="true"
+        class="gauge-circle"
+        style="background-color: rgb(64, 159, 255); transform: rotate(90deg);"
+      >
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(3.6deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(90deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(180deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(270deg);"
+        />
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(0deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(3.6deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+      </div>
+      <div
+        class="gauge-center"
+        style="background-color: rgb(255, 255, 255);"
+      >
+        <div
+          class=""
+        >
+          <div
+            class="gauge-readout"
+          >
+            <span
+              class="gauge-value"
+            >
+              0
+            </span>
+            <span
+              class="gauge-percent-sign"
+            >
+              %
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner should render when partially completed 1`] = `
+<div>
+  <div
+    class="spinner"
+  >
+    <div
+      class="gauge"
+    >
+      <div
+        aria-hidden="true"
+        class="gauge-circle"
+        style="background-color: rgb(64, 159, 255); transform: rotate(90deg);"
+      >
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(237.6deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(237.6deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(237.6deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(226, 228, 230); transform: rotate(270deg);"
+        />
+        <div
+          class="gauge-background-panel"
+          style="background-color: rgb(64, 159, 255); transform: rotate(0deg);"
+        />
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(0deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+        <div
+          class="gauge-endcap-container"
+          style="transform: rotate(237.6deg);"
+        >
+          <div
+            class="gauge-endcap"
+            style="transform: scaleX(1); background-color: rgb(64, 159, 255);"
+          />
+        </div>
+      </div>
+      <div
+        class="gauge-center"
+        style="background-color: rgb(255, 255, 255);"
+      >
+        <div
+          class="spinner-reverse"
+        >
+          <div
+            class="gauge-readout"
+          >
+            <span
+              class="gauge-value"
+            >
+              66
+            </span>
+            <span
+              class="gauge-percent-sign"
+            >
+              %
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
