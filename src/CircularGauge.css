@@ -1,0 +1,74 @@
+.gauge {
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 232px;
+  height: 232px;
+}
+
+.gauge-circle {
+  width: 100%;
+  height: 100%;
+}
+
+.gauge-background-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  left: 50%;
+  /* transform: property to be applied as an inline style */
+  transform-origin: bottom left;
+  transition: transform 0.1s linear;
+}
+
+.gauge-endcap-container {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  left: 50%;
+  bottom: 50%;
+  /* transform: property to be applied as an inline style */
+  transform-origin: bottom center;
+  transition: transform 0.1s linear;
+}
+
+.gauge-endcap {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  border-radius: 50%;
+  /* transform: property to be applied as an inline style */
+  transition: transform 0.1s linear;
+}
+
+.gauge-center {
+  position: absolute;
+  inset: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gauge-value {
+  font-size: 88px;
+  line-height: 60px;
+}
+
+.gauge-percent-sign {
+  font-size: 24px;
+  line-height: 24px;
+  color: #babcbf;
+  font-weight: bold;
+}
+
+.gauge-value,
+.gauge-percent-sign {
+  vertical-align: top;
+}

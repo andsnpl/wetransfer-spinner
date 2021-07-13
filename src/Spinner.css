@@ -1,0 +1,16 @@
+.spinner {
+  animation: rotate 3s linear infinite;
+}
+
+.spinner-reverse {
+  animation: rotate 3s linear infinite reverse;
+}
+
+.spinner-paused {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
